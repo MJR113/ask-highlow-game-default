@@ -29,7 +29,7 @@ const LaunchRequest = {
 
     attributesManager.setSessionAttributes(attributes);
 
-    const speechOutput = `Welcome to High Low guessing game. You have played ${attributes.gamesPlayed.toString()} times. would you like to play?`;
+    const speechOutput = `Welcome to High Low guessing game. You have played ${attributes.gamesPlayed.toString()} times. Would you like to play?`;
     const reprompt = 'Say yes to start the game or no to quit.';
     return responseBuilder
       .speak(speechOutput)
